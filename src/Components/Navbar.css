@@ -16,3 +16,64 @@
 .menu-container{
     margin-top: 5rem;
 }
+
+@media screen and (max-width: 1240px) {
+    .title-box{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0rem;
+        cursor: pointer;
+    }
+    
+    .title-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-top: 0.8rem;
+        font-size: 0.1rem;
+    }
+
+    .title-text h1.ant-typography{
+        font-size: 1.5rem;
+    }
+    .title-image{
+        height: 0.7rem;
+        width: 0.7rem;
+        margin-right: 2rem;
+    }
+    .title-image  img{
+        height: 0.5px;
+        width: 0.5px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .navbar-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title-box{
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        cursor: pointer;
+        margin-left: -2rem;
+    }
+
+    .menu-container{
+        position: absolute;
+        z-index: 1;
+        right: 1rem;
+        top: -1.2rem;
+    }
+    .title-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+        font-size: 0.1rem;
+    }
+}

@@ -32,3 +32,9 @@
     margin: 1rem auto;
     margin-top: 0px;
 }
+
+@media screen and (max-width: 750px){
+    .ant-typography h2{
+        font-size: 1rem;
+    }
+}

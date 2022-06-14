@@ -6,7 +6,8 @@
 
 .news-image-container{
     display: flex;
-    height: 6rem;
+    min-height: 6rem;
+    height: fit-content;
 }
 
 .news-title{
@@ -37,9 +38,11 @@
 .provider-time{
     font-size: 0.8rem;
     margin-top: 0.3rem;
+    width: fit-content;
 }
 
 .provider-name{
     font-size: 0.7rem;
     margin-left: 0.3rem;
+    width: fit-content;
 }

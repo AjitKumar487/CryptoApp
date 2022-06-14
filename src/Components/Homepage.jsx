@@ -20,12 +20,12 @@ const Homepage = () => {
         <Typography.Title level={2}>Global Crypto Stats</Typography.Title>
         <Card>
           <Row>
-            <Col xs={24} sm={12} lg={8}><Statistic title="Total Cryptocurrencies" value={millify(globalStats.total)} /></Col>
-            <Col xs={24} sm={12} lg={8}><Statistic title="Total Exchanges" value={millify(globalStats.totalExchanges)} /></Col>
-            <Col xs={24} sm={12} lg={8}><Statistic title="Total Market Cap" value={millify(globalStats.totalMarketCap)} /></Col>
+            <Col xs={12} sm={12} lg={8}><Statistic title="Total Cryptocurrencies" value={millify(globalStats.total)} /></Col>
+            <Col xs={12} sm={12} lg={8}><Statistic title="Total Exchanges" value={millify(globalStats.totalExchanges)} /></Col>
+            <Col xs={12} sm={12} lg={8}><Statistic title="Total Market Cap" value={millify(globalStats.totalMarketCap)} /></Col>
             {/* <Divider /> */}
-            <Col xs={24} sm={12} lg={8}><Statistic title="Total 24h Volume" value={millify(globalStats.total24hVolume)} /></Col>
-            <Col xs={24} sm={12} lg={8}><Statistic title="Total Markets" value={millify(globalStats.totalMarkets)} /></Col>
+            <Col xs={12} sm={12} lg={8}><Statistic title="Total 24h Volume" value={millify(globalStats.total24hVolume)} /></Col>
+            <Col xs={12} sm={12} lg={8}><Statistic title="Total Markets" value={millify(globalStats.totalMarkets)} /></Col>
           </Row>
         </Card>
       </div>
