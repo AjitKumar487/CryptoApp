@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.news-image-container{
+    display: flex;
+    height: 6rem;
+}
+
+.news-title{
+    display: inline;
+}
+
+.news-image-container img{
+    height: 100%;
+    width: 40%;
+}
+
+.news-description{
+    color: black;
+    min-height: 8rem;
+}
+
+.provider-image{
+    height: 2rem;
+    width: 2rem;
+}
+
+.provider-container{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+
+.provider-time{
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+}
+
+.provider-name{
+    font-size: 0.7rem;
+    margin-left: 0.3rem;
+}
