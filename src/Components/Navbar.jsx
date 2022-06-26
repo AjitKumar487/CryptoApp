@@ -27,7 +27,8 @@ const Navbar = () => {
 
   useEffect(() => {
     if (screenSize <= 1000) {
-      setActiveButton(true)
+      setActiveMenu(false);
+      setActiveButton(true);
     } else {
       setActiveMenu(true)
       setActiveButton(false);
